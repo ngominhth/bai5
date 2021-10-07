@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  p{
+      font-weight: bold;font-size: 16px;
+      line-height: 20px;
+  }
+</style>
+</head>
+<body>
+<div style="margin-left:20px;">
+<form action="simpleform.html" method="get">
+<h2>Order Form</h2>
+<p>What would you like to buy?</p>
+<select style="width:100px;" id="form_minh">
+    <option value="1">A</option>
+    <option value="2">B (+  0.5$)</option>
+    <option value="3">C (+  0.5$)</option>
+</select>
+<p>How many would you like to order?</p>
+<input type="radio" value="1-$10" name="mot"> 1-$10<br>
+<input type="radio" value="2" name="mot"> 2-$20 <br>
+<input type="radio" value="3" name="mot"> 3-$25 <br>
+    <p>Name <span style="color:red">*</span></p>
+    <input type="text" size="15" name="firstname" placeholder="firstname">
+    <input type="text" size="15" name="lastname" placeholder="lastname">
+    <p>Email</p>
+    <input type="text" size="35" name="mail">
+    <p>Phone number</p>
+    <input type="text" size="5">-<input type="text" size="5">-<input type="text" size="5">
+    <p><input type="button" value="Submit" name="btn_form"></p>
+</form>
+</div>
+</body>
+</html>
